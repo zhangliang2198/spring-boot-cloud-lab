@@ -14,5 +14,6 @@
         <module>spring-actuator-heath</module>
         <module>spring-actuator-info</module>
         <module>spring-actuator-metrics</module>
+        <module>spring-actuator-httptrace</module>
     </modules>
 </project>
