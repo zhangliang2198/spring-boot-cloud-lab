@@ -16,5 +16,7 @@
         <module>spring-actuator-metrics</module>
         <module>spring-actuator-httptrace</module>
         <module>spring-actuator-audit</module>
+        <module>spring-actuator-base</module>
+        <module>spring-actuator-custom-endpoint</module>
     </modules>
 </project>
