@@ -11,7 +11,7 @@
     <description>spring-boot-cloud 所有业务相关组件和中间件测试</description>
     <modules>
         <module>spring-mybatis</module>
-        <module>spring-actuator-heath</module>
+        <module>spring-actuator</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
