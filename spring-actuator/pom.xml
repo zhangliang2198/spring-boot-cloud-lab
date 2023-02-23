@@ -15,5 +15,6 @@
         <module>spring-actuator-info</module>
         <module>spring-actuator-metrics</module>
         <module>spring-actuator-httptrace</module>
+        <module>spring-actuator-audit</module>
     </modules>
 </project>
