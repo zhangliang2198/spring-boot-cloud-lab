@@ -11,9 +11,11 @@
     <description>spring-boot-cloud 所有业务相关组件和中间件测试</description>
     <modules>
         <module>spring-mybatis</module>
+        <module>spring-actuator-heath</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
+        <spring.boot.version>2.7.8</spring.boot.version>
         <revision>1.0.0-snapshot</revision>
         <!-- Maven 相关 -->
         <java.version>1.8</java.version>
@@ -28,6 +30,16 @@
     </properties>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
