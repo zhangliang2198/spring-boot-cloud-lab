@@ -13,5 +13,6 @@
     <modules>
         <module>spring-actuator-heath</module>
         <module>spring-actuator-info</module>
+        <module>spring-actuator-metrics</module>
     </modules>
 </project>
