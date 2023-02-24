@@ -17,6 +17,7 @@
         <module>spring-boot-admin-adminserver-security</module>
         <module>spring-boot-admin-demoapplication-security</module>
         <module>spring-boot-admin-adminserver-warn</module>
+        <module>spring-boot-admin-adminserver-customer</module>
     </modules>
 
 </project>
