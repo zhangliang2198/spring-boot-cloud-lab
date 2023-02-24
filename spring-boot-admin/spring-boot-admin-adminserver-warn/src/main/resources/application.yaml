@@ -2,28 +2,27 @@ server:
   port: 8080
 spring:
   mail:
-    default:
-      host: "smtp.qq.com"
-      password: "xxxxx"
-      username: "xxxxx"
-      port: 465
-      properties:
-        mail:
-          smtp:
-            port: 465
-            ssl:
-              enable: true
-            auth: true
-            starttls:
-              enable: false
-              required: false
-
+    host: "smtp.qq.com"
+    password: "uxxxxxx"
+    username: "uxxxxxx"
+    # 编码格式
+    default-encoding: utf-8
+    port: 587
+    # 协议
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: false
+            required: false
   boot:
     admin:
       notify:
         mail:
-          from: xxxxx # 告警发件人
-          to: xxxxx # 告警收件人
+          from: uxxxxxx # 告警发件人
+          to: uxxxxxx # 告警收件人
   application:
     name: spring-actuator-heath
 management:
