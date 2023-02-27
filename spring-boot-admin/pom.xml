@@ -18,6 +18,8 @@
         <module>spring-boot-admin-demoapplication-security</module>
         <module>spring-boot-admin-adminserver-warn</module>
         <module>spring-boot-admin-adminserver-customer</module>
+        <module>spring-boot-admin-demoapplication-byheader</module>
+        <module>spring-boot-admin-adminserver-byheader-server</module>
     </modules>
 
 </project>

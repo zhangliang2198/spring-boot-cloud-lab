@@ -14,4 +14,7 @@ spring:
         url: http://127.0.0.1:8080 # Spring Boot Admin Server 地址
 
 server:
-  port: 18081 # 设置自定义 Server 端口，避免和 Spring Boot Admin Server 端口冲突。
+  port: 18080 # 设置自定义 Server 端口，避免和 Spring Boot Admin Server 端口冲突。
+  admin:
+    token-name: spring.boot.admin.token
+    token: XXXXXXXX
