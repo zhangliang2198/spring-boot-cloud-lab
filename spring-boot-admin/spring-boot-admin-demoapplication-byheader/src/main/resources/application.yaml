@@ -18,3 +18,8 @@ server:
   admin:
     token-name: spring.boot.admin.token
     token: XXXXXXXX
+logging:
+  file:
+    name: d:\api_logs\output.log
+logger:
+  level: info

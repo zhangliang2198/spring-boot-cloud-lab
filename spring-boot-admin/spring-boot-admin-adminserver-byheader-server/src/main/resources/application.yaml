@@ -1,15 +1,14 @@
 server:
   port: 8080
-
   admin:
     token-name: spring.boot.admin.token
     token: XXXXXXXX
 spring:
   application:
     name: spring-actuator-heath
+
 management:
   endpoint:
-    # Health 端点配置项，对应 HealthProperties 配置类
     health:
       enabled: true # 是否开启。默认为 true 开启。
       show-details: ALWAYS # 何时显示完整的健康信息。默认为 NEVER 都不展示。可选 WHEN_AUTHORIZED 当经过授权的用户；可选 ALWAYS 总是展示。

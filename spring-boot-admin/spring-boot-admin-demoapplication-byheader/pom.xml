@@ -6,16 +6,11 @@
     <parent>
         <groupId>com.zhen777.www</groupId>
         <artifactId>spring-boot-admin</artifactId>
-        <version>1.0.0-snapshot</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>spring-boot-admin-demoapplication-byheader</artifactId>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -29,6 +24,12 @@
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
