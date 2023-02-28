@@ -15,6 +15,7 @@
         <module>spring-boot-admin</module>
         <module>spring-log</module>
         <module>spring-aop</module>
+        <module>lab00-spring-boot-base</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
