@@ -1,0 +1,8 @@
+
+###
+GET http://localhost:8080/demo/l1
+shenyu-token-for-gate-way:test-token
+
+###
+GET http://localhost:8080/demo/l2
+shenyu-token-for-gate-way:test-token1
