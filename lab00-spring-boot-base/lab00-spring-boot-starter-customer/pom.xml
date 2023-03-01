@@ -9,11 +9,13 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lab00-base-example</artifactId>
+    <artifactId>lab00-spring-boot-starter-customer</artifactId>
+
     <dependencies>
+        <!-- 引入 Spring Boot Starter 基础库 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
     </dependencies>
 </project>

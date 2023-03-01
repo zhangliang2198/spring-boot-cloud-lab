@@ -9,11 +9,13 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lab00-base-example</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>lab00-spring-boot-starter-customer-server</artifactId>
+<dependencies>
+    <dependency>
+        <groupId>com.zhen777.www</groupId>
+        <artifactId>lab00-spring-boot-starter-customer</artifactId>
+        <version>${revision}</version>
+    </dependency>
+</dependencies>
+
 </project>

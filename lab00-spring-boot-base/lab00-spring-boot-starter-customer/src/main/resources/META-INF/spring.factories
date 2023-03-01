@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zhen777.www.base.srarter.custom.autoconfig.YunaiServerAutoConfiguration
