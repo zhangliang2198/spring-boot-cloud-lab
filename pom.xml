@@ -16,6 +16,7 @@
         <module>spring-log</module>
         <module>spring-aop</module>
         <module>lab00-spring-boot-base</module>
+        <module>lab01-java-spi</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
@@ -23,6 +24,7 @@
         <revision>1.0.0-snapshot</revision>
         <!-- Maven 相关 -->
         <java.version>1.8</java.version>
+
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
