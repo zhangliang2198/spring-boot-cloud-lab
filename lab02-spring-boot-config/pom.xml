@@ -12,7 +12,8 @@
     <artifactId>lab02-spring-boot-config</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>config-base</module>
+        <module>lab02-config-config-base</module>
+        <module>lab02-config-with-env</module>
     </modules>
 
 </project>
