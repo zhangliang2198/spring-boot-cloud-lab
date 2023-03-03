@@ -1,1 +1,13 @@
-application-test: hahaha
+spring:
+  application:
+    #    name: ENC(YFJ/nBxn89KUfbBW6cPxqjFo3K63GJaOcDMSKWOsFxMAKCgBiLoMAw==)
+    name: ENC(F4jJJNJ7SRRxCYzwPGZu6Fy28Lck9irGxREgxsYI2UNgQAOJWv1iyg==)
+
+jasypt:
+  # jasypt 配置项，对应 JasyptEncryptorConfigurationProperties 配置类
+  encryptor:
+    algorithm: PBEWithMD5AndDES # 加密算法
+
+
+    # password: ${JASYPT_PASSWORD} # 加密秘钥, 这里从环境变量拿，也可以从启动项拿
+    password: jiamikey # 加密秘钥, 这里从环境变量拿
