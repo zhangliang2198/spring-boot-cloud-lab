@@ -1,4 +1,4 @@
-package com.zhen777.www.config.customer;
+package com.zhen777.www.config.Jasypt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,7 +26,6 @@ public class Application {
         // 启动 Spring Boot 应用
         SpringApplication.run(Application.class, args);
     }
-
     @Component
     public class ValueCommandLineRunner implements CommandLineRunner {
 

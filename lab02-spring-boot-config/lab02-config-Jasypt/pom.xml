@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.zhen777.www</groupId>
-        <artifactId>spring-boot-cloud</artifactId>
+        <artifactId>lab02-spring-boot-config</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lab02-spring-boot-config</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>lab02-config-config-base</module>
-        <module>lab02-config-with-env</module>
-        <module>lab02-config-customer</module>
-        <module>lab02-config-Jasypt</module>
-    </modules>
+    <artifactId>lab02-config-Jasypt</artifactId>
 
+    <dependencies>
+        <!-- Spring Boot Starter 基础依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>
