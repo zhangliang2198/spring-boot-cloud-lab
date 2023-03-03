@@ -17,6 +17,7 @@
         <module>spring-aop</module>
         <module>lab00-spring-boot-base</module>
         <module>lab01-java-spi</module>
+        <module>lab02-spring-boot-config</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
