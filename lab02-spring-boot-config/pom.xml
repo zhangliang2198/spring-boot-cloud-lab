@@ -14,6 +14,7 @@
     <modules>
         <module>lab02-config-config-base</module>
         <module>lab02-config-with-env</module>
+        <module>lab02-config-customer</module>
     </modules>
 
 </project>
