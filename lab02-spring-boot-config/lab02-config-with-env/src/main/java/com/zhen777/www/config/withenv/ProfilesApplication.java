@@ -1,4 +1,4 @@
-package com.zhen777.www.config.base;
+package com.zhen777.www.config.withenv;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
