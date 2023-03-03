@@ -10,5 +10,9 @@
     </parent>
 
     <artifactId>lab02-spring-boot-config</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>config-base</module>
+    </modules>
 
 </project>
