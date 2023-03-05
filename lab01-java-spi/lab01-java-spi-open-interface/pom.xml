@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.zhen777.www</groupId>
         <artifactId>lab01-java-spi</artifactId>
-        <version>1.0.0-snapshot</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>lab01-java-spi-open-interface</artifactId>

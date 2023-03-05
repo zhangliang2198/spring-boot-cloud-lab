@@ -3,6 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.8</version>
+    </parent>
     <groupId>com.zhen777.www</groupId>
     <artifactId>spring-boot-cloud</artifactId>
     <version>${revision}</version>
@@ -10,14 +15,14 @@
     <name>${project.artifactId}</name>
     <description>spring-boot-cloud 所有业务相关组件和中间件测试</description>
     <modules>
-        <module>spring-mybatis</module>
-        <module>spring-actuator</module>
-        <module>spring-boot-admin</module>
-        <module>spring-log</module>
-        <module>spring-aop</module>
-        <module>lab00-spring-boot-base</module>
-        <module>lab01-java-spi</module>
-        <module>lab02-spring-boot-config</module>
+<!--        <module>spring-mybatis</module>-->
+<!--        <module>spring-actuator</module>-->
+<!--        <module>spring-boot-admin</module>-->
+<!--        <module>spring-log</module>-->
+<!--        <module>spring-aop</module>-->
+<!--        <module>lab00-spring-boot-base</module>-->
+<!--        <module>lab01-java-spi</module>-->
+<!--        <module>lab02-spring-boot-config</module>-->
         <module>lab03-spring-dataSource</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
@@ -40,6 +45,11 @@
     </properties>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.27</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-jdbc</artifactId>
