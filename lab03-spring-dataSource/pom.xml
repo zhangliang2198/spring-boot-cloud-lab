@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>lab03-spring-dataSource-hikaricp-single</module>
+        <module>lab03-spring-dataSource-hikaricp-multiple</module>
     </modules>
 
 
