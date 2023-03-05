@@ -14,6 +14,8 @@
     <modules>
         <module>lab03-spring-dataSource-hikaricp-single</module>
         <module>lab03-spring-dataSource-hikaricp-multiple</module>
+        <module>lab03-spring-dataSource-druid-single</module>
+        <module>lab03-spring-dataSource-druid-multiple</module>
     </modules>
 
 

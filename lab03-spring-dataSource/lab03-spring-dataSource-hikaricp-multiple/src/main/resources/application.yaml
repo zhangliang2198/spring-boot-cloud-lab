@@ -4,7 +4,7 @@ spring:
     # 订单数据源配置
     orders:
       url: jdbc:mariadb://127.0.0.1:3306/test_orders?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: org.mariadb.jdbc.Driver
       username: root # 数据库账号
       password: meili163!
       # HikariCP 自定义配置，对应 HikariConfig 配置属性类
@@ -14,7 +14,7 @@ spring:
     # 用户数据源配置
     users:
       url: jdbc:mariadb://127.0.0.1:3306/test_users?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: org.mariadb.jdbc.Driver
       username: root # 数据库账号
       password: meili163!
       # HikariCP 自定义配置，对应 HikariConfig 配置属性类
