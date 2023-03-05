@@ -11,6 +11,25 @@
 
     <artifactId>lab03-spring-dataSource-hikaricp-single</artifactId>
 
+    <dependencies>
+        <!-- 实现对数据库连接池的自动化配置 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <!-- 本示例，我们使用 MySQL -->
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>3.1.2</version>
+        </dependency>
 
+        <!-- 方便等会写单元测试 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
