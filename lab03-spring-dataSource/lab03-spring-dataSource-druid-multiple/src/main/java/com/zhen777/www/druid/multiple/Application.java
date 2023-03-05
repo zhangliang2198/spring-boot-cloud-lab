@@ -1,4 +1,4 @@
-package com.zhen777.www.hikaricp.single;
+package com.zhen777.www.druid.multiple;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner {
@@ -24,7 +26,12 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        logger.info("[run][获得数据源：{}]", dataSource.getClass());
+        try (Connection conn = dataSource.getConnection()) {
+            // 这里，可以做点什么
+            logger.info("[run][获得连接：{}]", conn);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }
