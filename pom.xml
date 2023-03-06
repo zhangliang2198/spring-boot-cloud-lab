@@ -24,6 +24,7 @@
 <!--        <module>lab01-java-spi</module>-->
 <!--        <module>lab02-spring-boot-config</module>-->
         <module>lab03-spring-dataSource</module>
+        <module>lab-17-dynamic-datasource-baomidou</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
