@@ -16,4 +16,4 @@ spring:
 mybatis:
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: cn.iocoder.springboot.lab17.dynamicdatasource.dataobject
+  type-aliases-package: com.zhen777.www.dynamic.datasource.baomidou.dataobject
