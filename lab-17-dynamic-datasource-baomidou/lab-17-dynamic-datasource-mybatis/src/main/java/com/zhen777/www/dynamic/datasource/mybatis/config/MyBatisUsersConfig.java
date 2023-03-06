@@ -16,7 +16,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-@MapperScan(basePackages = {"com.zhen777.www.dynamic.datasource.mybatis.mapper.users.UserMapper"},
+@MapperScan(basePackages = {"com.zhen777.www.dynamic.datasource.mybatis.mapper.users"},
         sqlSessionTemplateRef = "usersSqlSessionTemplate")
 public class MyBatisUsersConfig {
 
