@@ -14,7 +14,7 @@ spring:
       # 订单 users 数据源配置
       ds-users:
         type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
-        jdbc-url: jdbc:mariadb://127.0.0.1:3306/test_orders?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+        jdbc-url: jdbc:mariadb://127.0.0.1:3306/test_users?useSSL=false&useUnicode=true&characterEncoding=UTF-8
         driver-class-name: org.mariadb.jdbc.Driver
         username: root # 数据库账号
         password: meili163!
