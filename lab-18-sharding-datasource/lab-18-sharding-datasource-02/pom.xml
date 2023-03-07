@@ -9,7 +9,7 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lab-18-sharding-datasource-01</artifactId>
+    <artifactId>lab-18-sharding-datasource-02</artifactId>
 
     <dependencies>
         <!-- 实现对数据库连接池的自动化配置 -->
@@ -23,11 +23,11 @@
             <version>3.1.2</version>
         </dependency>
 
-        <!-- 实现对 MyBatis 的自动化配置 -->
+        <!-- 实现对 MyBatis Plus 的自动化配置 -->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>3.0.1</version>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.3.1</version>
         </dependency>
 
         <!-- 实现对 Sharding-JDBC 的自动化配置 -->
@@ -49,11 +49,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
 
     </dependencies>
+
 </project>
