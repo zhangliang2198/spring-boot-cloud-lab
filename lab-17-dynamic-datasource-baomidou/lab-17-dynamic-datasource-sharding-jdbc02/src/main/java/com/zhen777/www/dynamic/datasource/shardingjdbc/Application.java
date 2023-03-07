@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.zhen777.www.dynamic.datasource.shardingjdbc.service")
+@MapperScan(basePackages = "com.zhen777.www.dynamic.datasource.shardingjdbc.mapper")
 @EnableAspectJAutoProxy(exposeProxy = true) // http://www.voidcn.com/article/p-zddcuyii-bpt.html
 public class Application {
 }
