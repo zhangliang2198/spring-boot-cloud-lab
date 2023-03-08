@@ -26,7 +26,8 @@
 <!--        <module>lab03-spring-dataSource</module>-->
 <!--        <module>lab-17-dynamic-datasource-baomidou</module>-->
 <!--        <module>lab-18-sharding-datasource</module>-->
-        <module>lab-14-jdbctemplate</module>
+<!--        <module>lab-14-jdbctemplate</module>-->
+        <module>lab-23-springmvc</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
