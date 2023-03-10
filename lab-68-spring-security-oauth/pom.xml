@@ -18,6 +18,10 @@
         <module>lab-68-demo02-authorization-server-with-implicit</module>
         <module>lab-68-demo02-authorization-server-with-client-credentials</module>
         <module>lab-68-demo03-authorization-server-with-client-credentials</module>
+        <module>lab-68-demo01-authorization-code-server</module>
+        <module>lab-68-demo01-client-credentials-server</module>
+        <module>lab-68-demo01-implicit-server</module>
+        <module>lab-68-demo01-resource-owner-password-credentials-server</module>
     </modules>
 
 
