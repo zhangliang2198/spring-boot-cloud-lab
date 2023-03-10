@@ -117,6 +117,12 @@
                 <artifactId>spring-boot-starter-aop</artifactId>
                 <version>${spring.boot.version}</version>
             </dependency>
+<!--到 2.6.8 就没有再更新了-->
+            <dependency>
+                <groupId>org.springframework.security.oauth.boot</groupId>
+                <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+                <version>2.6.8</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>

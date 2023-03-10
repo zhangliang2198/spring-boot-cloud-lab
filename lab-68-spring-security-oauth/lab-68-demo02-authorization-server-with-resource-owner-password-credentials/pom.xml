@@ -10,6 +10,23 @@
     </parent>
 
     <artifactId>lab-68-demo02-authorization-server-with-resource-owner-password-credentials</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
+        <!-- 实现对 Spring Security 的自动配置 -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-security</artifactId>-->
+        <!--        </dependency>-->
+
+        <!-- 实现对 Spring Security OAuth2 的自动配置 -->
+        <dependency>
+            <groupId>org.springframework.security.oauth.boot</groupId>
+            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
