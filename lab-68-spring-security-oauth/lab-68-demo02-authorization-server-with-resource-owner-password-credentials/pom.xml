@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.zhen777.www</groupId>
-        <artifactId>spring-boot-cloud</artifactId>
+        <artifactId>lab-68-spring-security-oauth</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lab-68-spring-security-oauth</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>lab-68-demo02-authorization-server-with-resource-owner-password-credentials</module>
-        <module>lab-68-demo02-resource-server</module>
-    </modules>
+    <artifactId>lab-68-demo02-authorization-server-with-resource-owner-password-credentials</artifactId>
 
 
 </project>
