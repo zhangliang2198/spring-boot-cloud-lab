@@ -27,9 +27,10 @@
 <!--        <module>lab-17-dynamic-datasource-baomidou</module>-->
 <!--        <module>lab-18-sharding-datasource</module>-->
 <!--        <module>lab-14-jdbctemplate</module>-->
-        <module>lab-23-springmvc</module>
-        <module>lab-01-spring-security</module>
-        <module>lab-68-spring-security-oauth</module>
+<!--        <module>lab-23-springmvc</module>-->
+<!--        <module>lab-01-spring-security</module>-->
+<!--        <module>lab-68-spring-security-oauth</module>-->
+        <module>lab-11-spring-data-redis</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
@@ -37,6 +38,10 @@
         <revision>1.0.0-snapshot</revision>
         <!-- Maven 相关 -->
         <java.version>1.8</java.version>
+        <jedis.version>4.3.1</jedis.version>
+        <fastjson.version>2.0.24</fastjson.version>
+        <jackson.version>2.14.2</jackson.version>
+        <commonio.version>2.11.0</commonio.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -77,6 +82,26 @@
                 <version>${spring.boot.version}</version>
             </dependency>
             <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commonio.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${spring.boot.version}</version>
@@ -90,6 +115,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
