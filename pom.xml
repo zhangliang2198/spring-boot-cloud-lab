@@ -42,6 +42,7 @@
         <fastjson.version>2.0.24</fastjson.version>
         <jackson.version>2.14.2</jackson.version>
         <commonio.version>2.11.0</commonio.version>
+        <redisson.version>3.20.0</redisson.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -56,6 +57,11 @@
     </properties>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
