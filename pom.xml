@@ -31,6 +31,7 @@
 <!--        <module>lab-01-spring-security</module>-->
 <!--        <module>lab-68-spring-security-oauth</module>-->
         <module>lab-11-spring-data-redis</module>
+        <module>labx01-rocketmq</module>
     </modules>
     <url>https://github.com/zhangliang2198/spring-boot-cloud-lab</url>
     <properties>
